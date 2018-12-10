@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>IdentityApp</title>
+  <title>Identity Gateway</title>
   <base href="http://identity-gateway-identity-app.193b.starter-ca-central-1.openshiftapps.com">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -33,6 +33,16 @@
 </head>
 <body>
   <app-root></app-root>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130669973-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'UA-130669973-1');
+  </script>
+
   <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
   <script src="assets/js/vendor/bootstrap.min.js"></script>
 
@@ -44,5 +54,9 @@
 
   <script src="assets/js/plugins.js"></script>
   <script src="assets/js/main.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
 <script type="text/javascript" src="runtime.js"></script><script type="text/javascript" src="polyfills.js"></script><script type="text/javascript" src="styles.js"></script><script type="text/javascript" src="vendor.js"></script><script type="text/javascript" src="main.js"></script></body>
 </html>
